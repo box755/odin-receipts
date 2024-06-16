@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lasagna Recipe</title>
+    <style>
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 1px solid;
+            border-collapse: collapse;
+            width:500px;
+        }
+        tr, th, td{
+            border: 1px solid;
+            text-align: center;/*align建議用css而不是html*/
+        }
+        caption{
+            border: 1px solid;
+        }
+        div{
+            word-wrap: break-word;/*讓div內文字要溢出時自動換行*/
+            width: 600px;
+        }
+        img{
+            height: 500px;
+            width: 500px;
+        }
+        .boldFont{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Lasagna</h1>
+        <img src="./images/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.webp">
+        <table><!--Table用法：thead tbody tfood tr th td-->
+            <caption>
+                Details
+            </caption>
+            <thead>
+                <tr>
+                    <th>Preperation time</th>
+                    <th>Cook time</th>
+                    <th>Additional time</th>
+                    <th>Total time</th>
+                    <th>Servings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>30 mins</td>
+                    <td>2h 30 mins</td>
+                    <td>15 mins</td>
+                    <td>3 hrs 15 mins </td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5"><!--colspan可以合併欄 rowspan同理-->
+                        <a href="#one">Jump to Nutrition Facts</a><!--跳轉到頁面某處#id-->
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>When 
+            <a href="https://www.allrecipes.com/cook/177901" target="_blank" rel="noopener">John Chandler</a> 
+            submitted this lasagna recipe to Allrecipes more than 20 years ago, he had no idea how successful it would become. One of our top-performing recipes of all time, World's Best Lasagna racks up more than 7 million views per year and has ranked among the most popular lasagna recipes on the internet for two decades. Unfortunately, John unexpectedly passed away at 53 years old — 
+            <a href = "https://www.allrecipes.com/longform/john-chandler-worlds-best-lasagna/" target="_blank" rel="noopener">read all about his life and legacy here.</a>
+            Make our most popular lasagna today to find out what all the fuss is about!</p>
+        <img src="images/23600-worlds-best-lasagna-armag-4x3-1-b24f9ad518d74090bf197828492c64a6.webp">
+    </div>
+    <div>
+        <h1>How to Make Lasagna?</h1>
+        <p>Making lasagna can be time-consuming, but the results are well worth the wait. You'll find a detailed ingredient list and step-by-step instructions in the recipe below, but let's go over the basics:</p>
+        <h2>Lasagna Ingredients</h2>
+        <p>The Allrecipes community adores this lasagna recipe because it's incredibly customizable, so you can easily alter the ingredient list to suit your needs. If you want to stay true to the original recipe, though, these are the ingredients you'll need to add to your grocery list:</p>
+        <ul>
+            <!--用span在區塊中改變部分區塊的css-->
+            <li><span class="boldFont">Meat</span>: This super meaty lasagna has sweet Italian sausage and lean ground beef.</li>
+            <li><span class="boldFont">Onion and garlic</span>: An onion and two cloves of garlic are cooked with the meat to add tons of flavor.</li>
+            <li><span class="boldFont">Tomato products</span>: You'll need a can of crushed tomatoes, two cans of tomato sauce, and two cans of tomato paste.</li>
+            <li><span class="boldFont">Sugar</span>: Two tablespoons of white sugar add subtle sweetness and enhance the flavor of the sauce.</li>
+            <li><span class="boldFont">Spices and seasonings</span>: This lasagna recipe is flavored with fresh parsley, dried basil leaves, salt, Italian seasoning, fennel seeds, and black pepper.</li>
+            <li><span class="boldFont">Lasagna noodles</span>: Use store-bought or homemade lasagna noodles.</li>
+            <li><span class="boldFont">Cheeses</span>: Parmesan, mozzarella, and ricotta cheese make this lasagna extra decadent.</li>
+            <li><span class="boldFont">Egg</span>: An egg helps bind the ricotta so it doesn't ooze out of the lasagna when you cut into it.</li>
+        </ul>
+    </div>
+    <div id = "one"><!--設定id用以跳轉-->
+        <h1>Nutrition Facts</h1>
+
+        <table>
+            <caption>
+                Nutrition table(per serving)
+            </caption>
+            <thead>
+                <tr>
+                    <th>Calories</th>
+                    <th>Fat</th>
+                    <th>Carbs</th>
+                    <th>Protein</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>448</td>
+                    <td>21g</td>
+                    <td>37g</td>
+                    <td>30g</td>
+                </tr>
+            </tbody>
+            <tr>
+                <td colspan="4"><a>Show Full Nutrition Label</a></td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+
+</html>
