@@ -1,0 +1,124 @@
+/* 整體頁面樣式 */
+body {
+    background: #f8f8f8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* 設定所有標題 */
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* 卡片樣式 */
+  .card {
+    width: 500px;
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* 圖片樣式 */
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* 表格樣式 */
+  table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  tr, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* 表格表頭 */
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  /* 營養資訊表格樣式 */
+  #one table {
+    margin-top: 20px;
+  }
+  
+  #one a {
+    color: #ff4500;
+    text-decoration: none;
+  }
+  
+  #one a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 粗體字樣式 */
+  .boldFont {
+    font-weight: bold;
+  }
+  
+  /* 連結樣式 */
+  a {
+    color: #ff4500;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 列表樣式 */
+  ul {
+    list-style-type: disc;
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* 段落樣式 */
+  p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* 按鈕樣式 */
+  button {
+    background: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #e63900;
+  }
