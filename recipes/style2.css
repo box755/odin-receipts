@@ -1,0 +1,68 @@
+body{
+    background: #f8f8f8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 30px;
+    color: #353535; 
+}
+
+.card{
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+}
+
+img{/*img是inline 所以用margin無法置中*/
+    border-radius: 10px;
+    height:auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table{
+    border: 1px rgb(190, 190, 190) solid;
+    border-collapse: collapse;
+    width: 100%
+}
+
+th, td, tr{
+    padding: 8px;
+    border: 1px rgb(190, 190, 190) solid;
+    text-align: center;
+}
+
+thead{
+    background-color: #f1f1f1;
+}
+
+caption{
+    color: #555555;
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+p{
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+a{
+    color:rgb(217, 65, 9);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: rgb(217, 65, 9) underline;
+    
+}

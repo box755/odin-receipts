@@ -36,30 +36,11 @@ body {
   }
   
   .listContainer ul {
-    list-style: none;
+    list-style: none;/*設定ul中的list-style可以依序設定list-style-type, list-style-image, 和 list-style-position*/
     padding: 0;
     margin: 0;
   }
   
-  .listContainer li {
-    margin-bottom: 15px;
-  }
-  
-  .listContainer a {
-    text-decoration: none;
-    color: #ff4500;
-    font-size: 1.2em;
-  }
-  
-  .listContainer a:hover {
-    text-decoration: underline;
-  }
-.listContainer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .listContainer li {
   margin-bottom: 15px;
 }

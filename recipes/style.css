@@ -39,7 +39,7 @@ body {
   table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid #ddd;
-    border-collapse: collapse;
+    border-collapse: collapse;/*border-collapse要在table的css改*/
     width: 100%;
     margin-bottom: 20px;
   }
@@ -62,20 +62,7 @@ body {
     background-color: #f2f2f2;
   }
   
-  /* 營養資訊表格樣式 */
-  #one table {
-    margin-top: 20px;
-  }
-  
-  #one a {
-    color: #ff4500;
-    text-decoration: none;
-  }
-  
-  #one a:hover {
-    text-decoration: underline;
-  }
-  
+
   /* 粗體字樣式 */
   .boldFont {
     font-weight: bold;
@@ -108,17 +95,3 @@ body {
     margin-bottom: 20px;
   }
   
-  /* 按鈕樣式 */
-  button {
-    background: #ff4500;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  button:hover {
-    background: #e63900;
-  }
